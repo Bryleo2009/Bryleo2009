@@ -19,6 +19,7 @@
 			.then(data => {
 				// Filtrar los repositorios que son proyectos web (los que tienen un archivo index.html o index.php)
 				var webProjects = data.filter(repo => {
+					console.table(repo);
 					return repo.has_pages && (repo.language === "HTML" || repo.language === "PHP") && repo.default_branch !== 'gh-pages';
 				});
 
