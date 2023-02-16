@@ -26,7 +26,7 @@
 				var projectList = document.getElementById("project-list");
 				webProjects.forEach(project => {
 					var link = document.createElement("a");
-					link.href = project.html_url;
+					link.href = "https://" + project.owner.login + ".github.io/" + project.name + "/";
 					link.textContent = project.name;
 
 					var listItem = document.createElement("li");
