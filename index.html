@@ -21,7 +21,8 @@
 				var webProjects = data.filter(repo => {
 					console.log("repos",repo);
 					console.log("pages",repo.has_pages);
-					return repo.has_pages && (repo.language === "HTML" || repo.language === "PHP") && repo.default_branch !== 'gh-pages';
+					console.log("return",repo.has_pages && repo.default_branch !== 'gh-pages');
+					return repo.has_pages && repo.default_branch !== 'gh-pages';
 				});
 
 				// Construir una lista de enlaces a los proyectos web
