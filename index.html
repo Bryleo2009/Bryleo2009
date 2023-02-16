@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tus proyectos web</title>
+</head>
+<body>
+	<h1>Tus proyectos web</h1>
+	<ul id="project-list">
+		<!-- Los proyectos se agregarán aquí -->
+	</ul>
+
+	<script>
+		// URL de la API de GitHub para obtener los repositorios de un usuario
+		var url = "https://api.github.com/users/Bryleo2009/repos";
+
+		// Realizar una solicitud GET a la API de GitHub
+		fetch(url)
+			.then(response => response.json())
+			.then(data => {
+				// Filtrar los repositorios que son proyectos web (los que tienen un archivo index.html o index.php)
+				var webProjects = data.filter(repo => {
+					return repo.has_pages && (repo.language === "HTML" || repo.language === "PHP") && repo.default_branch !== 'gh-pages';
+				});
+
+				// Construir una lista de enlaces a los proyectos web
+				var projectList = document.getElementById("project-list");
+				webProjects.forEach(project => {
+					var link = document.createElement("a");
+					link.href = project.html_url;
+					link.textContent = project.name;
+
+					var listItem = document.createElement("li");
+					listItem.appendChild(link);
+
+					projectList.appendChild(listItem);
+				});
+			})
+			.catch(error => console.error(error));
+	</script>
+</body>
+</html>
