@@ -2,10 +2,10 @@
 
 ###
 
-<h3 align="center">Software & Full Stack Developer<br>Systems Engineer</h3>
-<!--<div align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=38C2FF&random=false&width=435&lines=I'm+Bryan+Mor%C3%A1n+%F0%9F%98%8E;I'm+Software+Developer;I'm+Full-stack+Developer;I'm+Systems+Engineer" alt="Typing SVG" /></a>
-</div>-->
+<!--<h3 align="center">Software & Full Stack Developer<br>Systems Engineer</h3>-->
+<div align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=38C2FF&random=false&width=435&center=true&vCenter=true&lines=I'm+Software+Developer;I'm+Full-stack+Developer;I'm+Systems+Engineer" alt="Typing SVG" /></a>
+</div>
 <div align="center">
   <a href="https://www.facebook.com/moran.vega24" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="32" height="20" alt="facebook logo"  />
