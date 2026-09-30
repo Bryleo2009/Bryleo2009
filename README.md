@@ -1,277 +1,243 @@
 <div align="center">
 
-# Bryan Morán
+# `> whoami`
 
-### Systems Engineer · Full-Stack Software Engineer
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1100&color=38C2FF&center=true&vCenter=true&width=650&lines=Bryan+Mor%C3%A1n;Systems+Engineer+%2B+Full-Stack+Developer;I+build+things+that+actually+go+to+production;APIs+%7C+Webhooks+%7C+ERP+%7C+Automation" />
 
-Building business-critical software, integrations and automation for real-world operations.
+<br>
+
+```bash
+bryan@dev:~$ ./about-me
+```
+
+**Full-Stack Developer** building web platforms, integrations and automation.
+
+Mostly working somewhere between:
+
+`frontend ↔ backend ↔ databases ↔ APIs ↔ production problems`
 
 <br>
 
 <a href="https://www.linkedin.com/in/moran-vega24/">
-  <img src="https://img.shields.io/badge/LinkedIn-111827?style=flat-square&logo=linkedin&logoColor=white" />
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
-&nbsp;
 <a href="https://github.com/bryleo2009">
-  <img src="https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
-&nbsp;
 <a href="https://www.instagram.com/moran.vega24">
-  <img src="https://img.shields.io/badge/Instagram-111827?style=flat-square&logo=instagram&logoColor=white" />
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
 </a>
 
 </div>
 
-<br>
+---
+
+## `~/me`
+
+```ts
+const bryan = {
+  role: ["Systems Engineer", "Full-Stack Developer"],
+
+  builds: [
+    "business platforms",
+    "ERP integrations",
+    "e-commerce systems",
+    "order workflows",
+    "automation"
+  ],
+
+  likes: [
+    "clean APIs",
+    "good architecture",
+    "useful automation",
+    "debugging weird production bugs",
+    "making systems talk to each other"
+  ],
+
+  currentlyExploring: [
+    "AI-assisted development",
+    "agentic workflows",
+    "automation",
+    "XAI"
+  ]
+};
+```
 
 ---
 
-## Profile
+## `~/stack`
 
-Full-Stack Software Engineer focused on the design and development of **business platforms, ERP systems, e-commerce solutions and system integrations**.
-
-My work covers the complete software lifecycle, from database modeling and backend architecture to frontend applications, third-party integrations, automated workflows and production deployment.
-
-I work especially well in environments where software needs to translate complex business processes into reliable, maintainable systems.
-
----
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Core expertise
-
-- Enterprise web applications
-- Backend architecture
-- REST APIs & Webhooks
-- ERP systems
-- Business process automation
-- Database design
-- Third-party integrations
-- CI/CD pipelines
-- Production troubleshooting
-
-</td>
-<td width="50%" valign="top">
-
-### Domains
-
-- Accounts Payable
-- Financial workflows
-- E-commerce
-- Order management
-- Delivery operations
-- Inventory management
-- Electronic invoicing
-- Customer loyalty
-- Operational dashboards
-
-</td>
-</tr>
-</table>
-
----
-
-## Engineering Stack
-
-<table>
-<tr>
-<td width="25%" valign="top">
+<div align="center">
 
 ### Backend
 
-`Java`  
-`Spring`  
-`Spring Boot`  
-`PHP`  
-`Laravel`  
-`JPA`  
-`MyBatis`
+<img src="https://skillicons.dev/icons?i=java,spring,php,laravel" />
 
-</td>
-<td width="25%" valign="top">
+`Java` · `Spring` · `Spring Boot` · `Laravel` · `JPA` · `MyBatis`
+
+<br>
 
 ### Frontend
 
-`Angular`  
-`Vue`  
-`TypeScript`  
-`JavaScript`  
-`PrimeNG`  
-`Element Plus`
+<img src="https://skillicons.dev/icons?i=angular,vue,ts,js,html,css,bootstrap" />
 
-</td>
-<td width="25%" valign="top">
+`Angular` · `Vue` · `TypeScript` · `JavaScript` · `PrimeNG` · `Element Plus`
+
+<br>
 
 ### Data
 
-`PostgreSQL`  
-`Oracle`  
-`SQL Server`  
-`MySQL`  
-`PL/SQL`  
-`Stored Procedures`
+<img src="https://skillicons.dev/icons?i=postgres,mysql" />
 
-</td>
-<td width="25%" valign="top">
+`PostgreSQL` · `MySQL` · `Oracle` · `SQL Server` · `PL/SQL`
 
-### Platform
+<br>
 
-`Git`  
-`GitHub Actions`  
-`Linux`  
-`Maven`  
-`Tomcat`  
-`TomEE`  
-`Sentry`
+### Tools
 
-</td>
-</tr>
-</table>
+<img src="https://skillicons.dev/icons?i=git,github,linux,vscode,idea" />
 
----
-
-## What I Build
-
-### Business Platforms
-
-Systems designed around actual operational workflows rather than isolated CRUD screens.
-
-```text
-Customer
-   │
-   ▼
-Web Application
-   │
-   ├── Orders
-   ├── Payments
-   ├── Inventory
-   ├── Loyalty
-   └── Billing
-   │
-   ▼
-Backend Services
-   │
-   ├── Business Rules
-   ├── External APIs
-   ├── Webhooks
-   └── Background Processes
-   │
-   ▼
-Databases & External Systems
-```
-
-### System Integrations
-
-I work with integrations where several platforms need to behave as one system:
-
-`External Platform → Webhook → Backend → Business Logic → Database → ERP / Finance`
-
-Typical concerns include:
-
-- event processing
-- synchronization
-- retries and idempotency
-- state transitions
-- external API failures
-- data consistency
-- observability
-
-### Enterprise Systems
-
-A significant part of my work involves software where correctness matters more than fashionable abstractions.
-
-This includes financial processes, accounting workflows, tax-related operations, stored procedures, validations and integrations with existing enterprise infrastructure.
-
----
-
-## Engineering Approach
-
-I prefer systems that are:
-
-**Predictable**  
-Business rules should behave consistently.
-
-**Observable**  
-Production problems should be diagnosable without archaeology.
-
-**Maintainable**  
-Code should still make sense six months later.
-
-**Resilient**  
-Integrations should expect external services to fail.
-
-**Pragmatic**  
-Architecture exists to solve problems, not to decorate diagrams.
-
----
-
-## Selected Technical Interests
-
-```yaml
-engineering:
-  architecture:
-    - distributed business workflows
-    - event-driven integrations
-    - backend architecture
-
-  automation:
-    - CI/CD
-    - workflow automation
-    - AI-assisted development
-
-  reliability:
-    - observability
-    - production diagnostics
-    - resilient integrations
-
-  research:
-    - anomaly detection
-    - explainable AI
-    - intelligent ERP systems
-```
-
----
-
-## GitHub Activity
-
-<div align="center">
-
-<img
-  height="160"
-  src="https://github-readme-stats.vercel.app/api?username=bryleo2009&show_icons=true&include_all_commits=true&count_private=true&theme=transparent&hide_border=true&hide_title=true"
-/>
-
-<img
-  height="160"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=bryleo2009&layout=compact&langs_count=8&theme=transparent&hide_border=true&hide_title=true"
-/>
+`Git` · `GitHub Actions` · `Linux` · `Maven` · `Tomcat` · `TomEE` · `Sentry`
 
 </div>
 
 ---
 
-## Current Focus
+## `~/what-i-do`
 
-Currently exploring how **AI, automation and agentic software engineering** can improve traditional development workflows and enterprise systems.
+```text
+          ┌──────────────┐
+          │   Frontend   │
+          └──────┬───────┘
+                 │
+                 ▼
+          ┌──────────────┐
+          │   Backend    │
+          └──────┬───────┘
+                 │
+       ┌─────────┼──────────┐
+       ▼         ▼          ▼
+   Database     APIs     Webhooks
+       │         │          │
+       └─────────┼──────────┘
+                 ▼
+         External Systems
+                 │
+                 ▼
+            Production
+                 │
+                 ▼
+             somehow
+            still works
+```
 
-Particularly interested in:
+I usually work on systems involving:
 
-`AI-assisted development` · `Agentic workflows` · `Process automation` · `Explainable AI` · `ERP intelligence`
+- order processing
+- payment & finance workflows
+- inventory
+- customer management
+- loyalty systems
+- electronic invoicing
+- external delivery platforms
+- ERP processes
+- APIs & webhooks
+- CI/CD
+- production troubleshooting
 
 ---
 
+## `~/dev-mode`
+
+```bash
+$ git status
+
+On branch building-things
+
+Changes not staged for commit:
+
+  modified: architecture
+  modified: integrations
+  modified: automation
+  modified: developer-experience
+
+Untracked files:
+
+  ai-agents/
+  weird-production-bug-#9284/
+```
+
+---
+
+## `~/how-i-think`
+
+```java
+if (worksLocally && !worksInProduction) {
+    checkLogs();
+    checkEnvironment();
+    checkDatabase();
+    questionLifeChoices();
+    fixRootCause();
+}
+```
+
+I like software that is:
+
+`maintainable` · `observable` · `predictable` · `useful`
+
+Not architecture for architecture's sake.
+
+Not abstractions created because somebody watched a 37-minute YouTube video about microservices.
+
+---
+
+## `~/currently`
+
+```yaml
+learning:
+  - agentic development
+  - AI-assisted engineering
+  - intelligent automation
+  - observability
+
+research:
+  - anomaly detection
+  - explainable AI
+  - ERP intelligence
+
+building:
+  - full-stack platforms
+  - integrations
+  - automation
+  - things users will somehow find a way to break
+```
+
+---
+
+## `~/stats`
+
 <div align="center">
 
-### Engineering software around real problems.
+<img height="165"
+src="https://github-readme-stats.vercel.app/api?username=bryleo2009&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&hide_border=true&rank_icon=github" />
 
-<sub>
-Systems · Integrations · Automation · Reliability
-</sub>
+<img height="165"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=bryleo2009&layout=compact&langs_count=8&theme=github_dark&hide_border=true" />
 
-<br><br>
+</div>
 
-<img src="https://raw.githubusercontent.com/bryleo2009/bryleo2009/output/snake.svg" alt="GitHub contribution graph" />
+---
+
+## `~/contributions`
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/bryleo2009/bryleo2009/output/snake.svg" alt="Snake animation" />
+
+<br>
+
+```bash
+bryan@dev:~$ git commit -m "fix: everything"
+```
 
 </div>
