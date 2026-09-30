@@ -1,127 +1,277 @@
-<h1 align="center">I'm Bryan Morán 😎</h1>
-
-###
-
-<!--<h3 align="center">Software & Full Stack Developer<br>Systems Engineer</h3>-->
 <div align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=38C2FF&random=false&width=435&center=true&vCenter=true&lines=I'm+Software+Developer;I'm+Full-stack+Developer;I'm+Systems+Engineer" alt="Typing SVG" /></a>
+
+# Bryan Morán
+
+### Systems Engineer · Full-Stack Software Engineer
+
+Building business-critical software, integrations and automation for real-world operations.
+
+<br>
+
+<a href="https://www.linkedin.com/in/moran-vega24/">
+  <img src="https://img.shields.io/badge/LinkedIn-111827?style=flat-square&logo=linkedin&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://github.com/bryleo2009">
+  <img src="https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://www.instagram.com/moran.vega24">
+  <img src="https://img.shields.io/badge/Instagram-111827?style=flat-square&logo=instagram&logoColor=white" />
+</a>
+
 </div>
+
+<br>
+
+---
+
+## Profile
+
+Full-Stack Software Engineer focused on the design and development of **business platforms, ERP systems, e-commerce solutions and system integrations**.
+
+My work covers the complete software lifecycle, from database modeling and backend architecture to frontend applications, third-party integrations, automated workflows and production deployment.
+
+I work especially well in environments where software needs to translate complex business processes into reliable, maintainable systems.
+
+---
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Core expertise
+
+- Enterprise web applications
+- Backend architecture
+- REST APIs & Webhooks
+- ERP systems
+- Business process automation
+- Database design
+- Third-party integrations
+- CI/CD pipelines
+- Production troubleshooting
+
+</td>
+<td width="50%" valign="top">
+
+### Domains
+
+- Accounts Payable
+- Financial workflows
+- E-commerce
+- Order management
+- Delivery operations
+- Inventory management
+- Electronic invoicing
+- Customer loyalty
+- Operational dashboards
+
+</td>
+</tr>
+</table>
+
+---
+
+## Engineering Stack
+
+<table>
+<tr>
+<td width="25%" valign="top">
+
+### Backend
+
+`Java`  
+`Spring`  
+`Spring Boot`  
+`PHP`  
+`Laravel`  
+`JPA`  
+`MyBatis`
+
+</td>
+<td width="25%" valign="top">
+
+### Frontend
+
+`Angular`  
+`Vue`  
+`TypeScript`  
+`JavaScript`  
+`PrimeNG`  
+`Element Plus`
+
+</td>
+<td width="25%" valign="top">
+
+### Data
+
+`PostgreSQL`  
+`Oracle`  
+`SQL Server`  
+`MySQL`  
+`PL/SQL`  
+`Stored Procedures`
+
+</td>
+<td width="25%" valign="top">
+
+### Platform
+
+`Git`  
+`GitHub Actions`  
+`Linux`  
+`Maven`  
+`Tomcat`  
+`TomEE`  
+`Sentry`
+
+</td>
+</tr>
+</table>
+
+---
+
+## What I Build
+
+### Business Platforms
+
+Systems designed around actual operational workflows rather than isolated CRUD screens.
+
+```text
+Customer
+   │
+   ▼
+Web Application
+   │
+   ├── Orders
+   ├── Payments
+   ├── Inventory
+   ├── Loyalty
+   └── Billing
+   │
+   ▼
+Backend Services
+   │
+   ├── Business Rules
+   ├── External APIs
+   ├── Webhooks
+   └── Background Processes
+   │
+   ▼
+Databases & External Systems
+```
+
+### System Integrations
+
+I work with integrations where several platforms need to behave as one system:
+
+`External Platform → Webhook → Backend → Business Logic → Database → ERP / Finance`
+
+Typical concerns include:
+
+- event processing
+- synchronization
+- retries and idempotency
+- state transitions
+- external API failures
+- data consistency
+- observability
+
+### Enterprise Systems
+
+A significant part of my work involves software where correctness matters more than fashionable abstractions.
+
+This includes financial processes, accounting workflows, tax-related operations, stored procedures, validations and integrations with existing enterprise infrastructure.
+
+---
+
+## Engineering Approach
+
+I prefer systems that are:
+
+**Predictable**  
+Business rules should behave consistently.
+
+**Observable**  
+Production problems should be diagnosable without archaeology.
+
+**Maintainable**  
+Code should still make sense six months later.
+
+**Resilient**  
+Integrations should expect external services to fail.
+
+**Pragmatic**  
+Architecture exists to solve problems, not to decorate diagrams.
+
+---
+
+## Selected Technical Interests
+
+```yaml
+engineering:
+  architecture:
+    - distributed business workflows
+    - event-driven integrations
+    - backend architecture
+
+  automation:
+    - CI/CD
+    - workflow automation
+    - AI-assisted development
+
+  reliability:
+    - observability
+    - production diagnostics
+    - resilient integrations
+
+  research:
+    - anomaly detection
+    - explainable AI
+    - intelligent ERP systems
+```
+
+---
+
+## GitHub Activity
+
 <div align="center">
-  <a href="https://www.facebook.com/moran.vega24" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="32" height="20" alt="facebook logo"  />
-  </a>
-  <a href="https://www.instagram.com/moran.vega24" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="32" height="20" alt="instagram logo"  />
-  </a>
-  <a href="https://www.linkedin.com/in/moran-vega24/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="32" height="20" alt="linkedin logo"  />
-  </a>
-  <a href="https://www.twitter.com/moran_vega24" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="32" height="20" alt="twitter logo"  />
-  </a>
+
+<img
+  height="160"
+  src="https://github-readme-stats.vercel.app/api?username=bryleo2009&show_icons=true&include_all_commits=true&count_private=true&theme=transparent&hide_border=true&hide_title=true"
+/>
+
+<img
+  height="160"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=bryleo2009&layout=compact&langs_count=8&theme=transparent&hide_border=true&hide_title=true"
+/>
+
 </div>
 
-###
-<br clear="both">
+---
+
+## Current Focus
+
+Currently exploring how **AI, automation and agentic software engineering** can improve traditional development workflows and enterprise systems.
+
+Particularly interested in:
+
+`AI-assisted development` · `Agentic workflows` · `Process automation` · `Explainable AI` · `ERP intelligence`
+
+---
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bryleo2009&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=es&hide_border=true&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=bryleo2009&locale=es&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=true&order=2" height="150" alt="languages graph"  />
+
+### Engineering software around real problems.
+
+<sub>
+Systems · Integrations · Automation · Reliability
+</sub>
+
+<br><br>
+
+<img src="https://raw.githubusercontent.com/bryleo2009/bryleo2009/output/snake.svg" alt="GitHub contribution graph" />
+
 </div>
-
-<br clear="both">
-
-<h2 align="left">🪄 Technologies</h2>
-
-###
-
-<h4 align="left">Programming languages</h4>
-
-###
-
-<br clear="both">
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="cplusplus logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="c logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/php/777BB4" height="40" alt="php logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-</div>
-
-###
-
-<h4 align="left">Front-end development</h4>
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="40" alt="angularjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/vuedotjs/4FC08D" height="40" alt="vuejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/bootstrap/7952B3" height="40" alt="bootstrap logo"  />
-</div>
-
-###
-
-<h4 align="left">Back-end development</h4>
-
-###
-
-<div align="left">
-  <img src="https://cdn.simpleicons.org/nodedotjs/339933" height="40" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/spring/6DB33F" height="40" alt="spring logo"  />
-</div>
-
-###
-
-<h4 align="left">Database</h4>
-
-###
-
-<div align="left">
-  <img src="https://cdn.simpleicons.org/mongodb/47A248" height="40" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/oracle/F80000" height="40" alt="oracle logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="40" alt="microsoftsqlserver logo"  />
-</div>
-
-###
-
-<h4 align="left">Other</h4>
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" height="40" alt="arduino logo"  />
-</div>
-
-###
-
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/bryleo2009/bryleo2009/output/snake.svg" alt="Snake animation" />
-
-###
